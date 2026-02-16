@@ -6,7 +6,7 @@ ControllerPtr myControllers[BP32_MAX_GAMEPADS];
 HardwareSerial MyUART(1);
 
 #define LT1 15
-#define LT2 27
+#define LT2 5
 #define LT3 14
 
 #define RX0 3
@@ -23,7 +23,7 @@ Servo ripperServo;
 
 #define leftBladeTilt0 16   // \ "Aux1" on PCB. Used for controlling auxillary motor or lights.  Keep in mind this will always breifly turn on when the model is powered on.
 #define leftBladeTilt1 17   // /
-#define rightBladeTilt0 5  // \ "AUX2" on PCB. Used for controlling auxillary motors or lights.
+#define rightBladeTilt0 27  // \ "AUX2" on PCB. Used for controlling auxillary motors or lights.
 #define rightBladeTilt1 18   // /
 #define bladeTilt0 25       // \ "Aux3" on PCB. Used for controlling auxillary motors or lights.
 #define bladeTilt1 26       // /
